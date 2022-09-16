@@ -2,6 +2,44 @@
 -- All configuration changes should go inside of the table below
 -- vim.cmd("set redrawtime=10000")
 vim.cmd("syntax enable")
+vim.opt.shell = "pwsh.exe -NoLogo"
+vim.opt.shellcmdflag =
+  "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;"
+vim.cmd [[
+		let &shellredir = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
+		let &shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
+		set shellquote= shellxquote=
+  ]]
+-- Set a compatible clipboard manager
+vim.g.clipboard = {
+  copy = {
+    ["+"] = "win32yank.exe -i --crlf",
+    ["*"] = "win32yank.exe -i --crlf",
+  },
+  paste = {
+    ["+"] = "win32yank.exe -o --lf",
+    ["*"] = "win32yank.exe -o --lf",
+  },
+}
+
+vim.cmd([[
+augroup highlight_yank
+    autocmd!
+    au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=500}
+augroup END
+]])
+
+vim.cmd([[
+function OpenFileLocation()
+	if ( expand("%") != "" )
+		execute "!start explorer %" 
+	else
+		execute "!start explorer %:p:h"
+	endif
+endfunction
+
+map of <ESC>:call OpenFileLocation()<CR>
+]])
 -- vim.cmd("set re=1")
 -- vim.cmd("set lazyredraw")
 -- vim.cmd("set synmaxcol=128")
@@ -60,7 +98,9 @@ local config = {
             relativenumber = false, -- sets vim.opt.relativenumber
             tabstop = 4,
             shiftwidth = 4,
-            expandtab = true
+            expandtab = true,
+            list = true,
+            listchars = "space:·,tab:▷▷⋮",
         },
         g = {
             mapleader = " " -- sets vim.g.mapleader
@@ -173,6 +213,7 @@ local config = {
         }
     },
 
+
     -- Mapping data with "desc" stored directly by vim.keymap.set().
     --
     -- Please use this mappings table to set keyboard mapping since this is the
@@ -202,31 +243,6 @@ local config = {
             -- ["<C-p>"] = {"<cmd>"}
             -- quick save
             -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-            ["vv"] = {"<C-v>"},
-            -- 删除设置
-            ["dd"] = {'"_dd'},
-            ["daw"] = {'"_daw'},
-            ["dw"] = {'"_dw'},
-            ["D"] = {'"_D'},
-            ['di"'] = {'"_di"'},
-            ["di("] = {'"_di('},
-            ["di{"] = {'"_di{'},
-
-            ["<leader>dd"] = {
-                '"+dd',
-                desc = "剪切"
-            },
-            ["<leader>daw"] = {'"+daw'},
-            ["<leader>dw"] = {'"+dw'},
-            ["<leader>D"] = {'"+D'},
-            ['<leader>di"'] = {'"+di"'},
-            ["<leader>di("] = {'"+di('},
-            ["<leader>di{"] = {'"+di{'},
-
-            ["<A-j>"] = {"<C-w>j"},
-            ["<A-k>"] = {"<C-w>k"},
-            ["<A-h>"] = {"<C-w>h"},
-            ["<A-l>"] = {"<C-w>l"},
 
             ["<leader>sw"] = {[[:%s/\<<C-R><C-W>\>//g<left><left>]], desc="匹配单词重命名"},
             -- 左右比例控制
@@ -241,9 +257,13 @@ local config = {
             ['""'] = {'mQlbi"<ESC>ea"<ESC>`Ql'},
             ["<C-p>"] = {"<cmd>Telescope find_files<CR>"},
             ["<C-h>"] = {"<cmd>Telescope live_grep<CR>"},
+            -- tab切换
+            ["<leader><tab>"] = {"<cmd>BufferLineCycleNext<CR>", desc="下一个页签"},
+            ["<leader><leader><tab>"] = {"<cmd>BufferLineCyclePrev<CR>", desc="上一个页签"},
+            [";e"] = {"<cmd>NeoTree toggle<CR>"},
         },
         i = {
-            ["<C-s>"] = {"<Esc>:w<CR>"},
+            ["<C-s>"] = {"<Esc>:w!<CR>"},
             ["jk"] = {"<ESC>"}
         },
         v = {
@@ -264,7 +284,7 @@ local config = {
             ["<leader>di("] = {'"+di('},
             ["<leader>di{"] = {'"+di{'},
             -- 在visual 模式里粘贴不要复制
-            ["p"] = {'"_dP'}
+            ["p"] = {'"_dP'},
         },
         t = {
             -- setting a mapping to false will disable it
@@ -296,6 +316,9 @@ local config = {
             --     require("lsp_signature").setup()
             --   end,
             -- },
+            {"chentoast/marks.nvim",
+                require("marks").setup()
+            },
         },
         -- All other entries override the require("<key>").setup({...}) call for default plugins
         ["null-ls"] = function(config) -- overrides `require("null-ls").setup(config)`
@@ -322,11 +345,11 @@ local config = {
             return config -- return final config table to use in require("null-ls").setup(config)
         end,
         treesitter = { -- overrides `require("treesitter").setup(...)`
-            ensure_installed = {"lua"}
+            ensure_installed = {"lua", "cpp"}
         },
         -- use mason-lspconfig to configure LSP installations
         ["mason-lspconfig"] = { -- overrides `require("mason-lspconfig").setup(...)`
-            ensure_installed = {"sumneko_lua"}
+            ensure_installed = {"sumneko_lua, clangd"}
         },
         -- use mason-tool-installer to configure DAP/Formatters/Linter installation
         ["mason-tool-installer"] = { -- overrides `require("mason-tool-installer").setup(...)`
@@ -411,4 +434,31 @@ local config = {
     end
 }
 
+-- 自定义按键映射，不添加到which-key中
+local map = vim.keymap.set
+local opt = { noremap = true, silent = true}
+map("n", "vv", "<C-v>", opt)
+-- 删除设置
+map("n", "dd", '"_dd', opt)
+map("n", "daw", '"_daw', opt)
+map("n", "dw", '"_dw', opt)
+map("n", "D", '"_D', opt)
+map("n", 'di"', '"_di"', opt)
+map("n", "di(", '"_di(', opt)
+map("n", "di{", '"_di{', opt)
+
+map("n", "<leader>dd", '"+dd', opt)
+map("n", "<leader>daw", '"+daw', opt)
+map("n", "<leader>dw", '"+dw', opt)
+map("n", "<leader>D", '"+D', opt)
+map("n", '<leader>di"', '"+di"', opt)
+map("n", "<leader>di(", '"+di(', opt)
+map("n", "<leader>di{", '"+di{', opt)
+
+map("n", "<A-j>", "<C-w>j", opt)
+map("n", "<A-k>", "<C-w>k", opt)
+map("n", "<A-h>", "<C-w>h", opt)
+map("n", "<A-l>", "<C-w>l", opt)
+
 return config
+
