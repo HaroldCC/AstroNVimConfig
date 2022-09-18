@@ -19,8 +19,7 @@ vim.g.clipboard = {
   paste = {
     ["+"] = "win32yank.exe -o --lf",
     ["*"] = "win32yank.exe -o --lf",
-  },
-}
+  }, }
 
 -- 复制内容高亮
 vim.cmd [[
@@ -29,7 +28,6 @@ augroup highlight_yank
     au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=300}
 augroup END
 ]]
-
 -- normal 和 insert 模式自动切换输入法
 vim.cmd [[autocmd InsertLeave * :silent :!im-select 1033]]
 vim.cmd [[autocmd InsertEnter * :silent :!im-select 2052]]
@@ -43,15 +41,7 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 ]]
--- vim.cmd("set re=1")
--- vim.cmd("set lazyredraw")
--- vim.cmd("set synmaxcol=128")
--- vim.cmd("syntax sync minlines=256")
 
--- vim.bo.tabstop = 4
--- vim.bo.shiftwidth=4
--- vim.bo.expandtab = true
--- vim.g.showmatch = true
 
 -- You can think of a Lua "table" as a dictionary like data structure the
 -- normal format is "key = value". These also handle array like data structures
@@ -81,8 +71,8 @@ local config = {
 
   -- Override highlight groups in any theme
   highlights = {
-    -- duskfox = { -- a table of overrides/changes to the default
     --   Normal = { bg = "#000000" },
+    -- duskfox = { -- a table of overrides/changes to the default
     -- },
     default_theme = function(highlights) -- or a function that returns a new table of colors to set
       local C = require "default_theme.colors"
@@ -108,6 +98,7 @@ local config = {
       foldlevel = 99,
       foldlevelstart = 99,
       foldenable = true,
+      so=1,
     },
     g = {
       mapleader = " ", -- sets vim.g.mapleader
@@ -235,6 +226,9 @@ local config = {
   mappings = {
     -- first key is the mode
     n = {
+      ["<leader>d"] = {""},
+      ["<S-h>"] = {"H"},
+      ["<S-l>"] = {"L"},
       -- second key is the lefthand side of the map
       -- mappings seen under group name "Buffer"
       ["<leader>bb"] = {
@@ -253,7 +247,6 @@ local config = {
         "<cmd>BufferLineSortByTabs<cr>",
         desc = "Sort by tabs",
       },
-      ["<leader>o"] = { "" },
       -- quick save
       ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
 
@@ -277,7 +270,7 @@ local config = {
       ["<C-o>"] = { "<cmd>AerialOpen<CR>", desc = "打开大纲" },
 
       -- diffview
-      ["<leader>df"] = { "<cmd>DiffViewOpen<CR>", desc = "打开对比" },
+      ["<leader>df"] = { "<cmd>DiffviewOpen<CR>", desc = "打开对比" },
       ["<leader>dh"] = { "<cmd>DiffviewFileHistory %<CR>", desc = "对比文件历史" },
 
       -- format
@@ -368,7 +361,8 @@ local config = {
       },
 
       -- clangd
-       {"p00f/clangd_extensions.nvim",
+      {
+        "p00f/clangd_extensions.nvim",
         after = "mason-lspconfig.nvim", -- make sure to load after mason-lspconfig
         config = function()
           require("clangd_extensions").setup {
@@ -411,7 +405,7 @@ local config = {
     },
     -- use mason-tool-installer to configure DAP/Formatters/Linter installation
     ["mason-tool-installer"] = { -- overrides `require("mason-tool-installer").setup(...)`
-      ensure_installed = { "prettier", "stylua", },
+      ensure_installed = { "prettier", "stylua" },
     },
     packer = { -- overrides `require("packer").setup(...)`
       compile_path = vim.fn.stdpath "data" .. "/packer_compiled.lua",
