@@ -1,0 +1,347 @@
+[18:39:58.111][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:65]: Lua Lsp startup, root: 	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server
+[18:39:58.111][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:66]: ROOT:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server
+[18:39:58.111][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:67]: LOGPATH:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/log
+[18:39:58.111][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:68]: METAPATH:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta
+[18:39:58.111][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:69]: VERSION:	3.5.6
+[18:39:58.126][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.413 MB
+        # 00 : 1.413 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:39:58.126][info] [#0:script\language.lua:137]: VSC language: nil
+[18:39:58.126][info] [#0:script\language.lua:138]: LS  language: en-us
+[18:39:58.126][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///D:/Dev/MySqlConnectPool
+[18:39:58.126][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/log/file_D_Dev_MySqlConnectPool.log
+[18:39:58.142][info] [#0:script\workspace\workspace.lua:51]: Workspace create: 	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.251][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.251][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.251][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.251][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.251][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.251][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.251][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[18:39:58.251][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.251][info] [#0:script\library.lua:207]: Init builtin library at:	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.283][info] [#0:script\plugin.lua:86]: plugin path:	D:\Dev\MySqlConnectPool
+[18:39:58.283][warn] [#0:script\plugin.lua:101]: plugin not found:	D:\Dev\MySqlConnectPool
+[18:39:58.283][info] [#0:script\library.lua:207]: Init builtin library at:	nil
+[18:39:58.298][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[18:39:58.298][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.298][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[18:39:58.298][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[18:39:58.298][info] [#0:script\workspace\workspace.lua:305]: Preload start:	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.298][info] [#0:script\workspace\workspace.lua:311]: Scan files at:	file:///d%3A/Dev/MySqlConnectPool
+[18:39:58.298][info] [#0:script\workspace\workspace.lua:305]: Preload start:	<fallback>
+[18:39:58.298][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///d%3A/Applications/NeoVim/share/nvim/runtime/lua
+[18:39:58.298][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua
+[18:39:58.330][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta/Lua%205.4%20en-us%20utf8
+[18:39:58.345][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///d%3A/Applications/NeoVim/share/nvim/runtime/lua
+[18:39:58.361][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua
+[18:39:58.376][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta/Lua%205.4%20en-us%20utf8
+[18:40:00.158][info] [#0:script\workspace\workspace.lua:348]: Found 123 files at:	<fallback>
+[18:40:00.158][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	<fallback>
+[18:40:00.158][info] [#0:script\workspace\workspace.lua:348]: Found 184 files at:	file:///d%3A/Dev/MySqlConnectPool
+[18:40:00.158][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///d%3A/Dev/MySqlConnectPool
+[18:40:00.642][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.498] sec: <fallback>
+[18:40:00.642][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[18:40:00.658][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	<fallback>
+[18:40:00.658][info] [#0:script\workspace\workspace.lua:350]: Preload finish at:	<fallback>
+[18:40:00.658][warn] [#0:script\proto\proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[18:40:02.158][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [2.008] sec: file:///d%3A/Dev/MySqlConnectPool
+[18:40:02.158][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///d%3A/Dev/MySqlConnectPool
+[18:40:02.158][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///d%3A/Dev/MySqlConnectPool
+[18:40:02.158][info] [#0:script\workspace\workspace.lua:350]: Preload finish at:	file:///d%3A/Dev/MySqlConnectPool
+[18:40:02.205][info] [#0:script\provider\diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[124]
+[18:40:02.205][warn] [#0:script\proto\proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[18:40:02.205][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentHighlight] takes [3.948]sec. {
+  id = 3,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 0
+    },
+    textDocument = {
+      uri = "file:///D:/Dev/MySqlConnectPool/xmake.lua"
+    }
+  }
+}
+[18:40:02.205][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentHighlight] takes [3.505]sec. {
+  id = 4,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 1
+    },
+    textDocument = {
+      uri = "file:///D:/Dev/MySqlConnectPool/xmake.lua"
+    }
+  }
+}
+[18:40:02.205][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentHighlight] takes [1.551]sec. {
+  id = 5,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 47
+    },
+    textDocument = {
+      uri = "file:///D:/Dev/MySqlConnectPool/xmake.lua"
+    }
+  }
+}
+[18:40:02.205][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentHighlight] takes [0.922]sec. {
+  id = 6,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 46
+    },
+    textDocument = {
+      uri = "file:///D:/Dev/MySqlConnectPool/xmake.lua"
+    }
+  }
+}
+[18:40:02.205][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentSymbol] takes [3.951]sec. {
+  id = 2,
+  jsonrpc = "2.0",
+  method = "textDocument/documentSymbol",
+  params = {
+    textDocument = {
+      uri = "file:///D:/Dev/MySqlConnectPool/xmake.lua"
+    }
+  }
+}
+[18:40:02.236][info] [#0:script\provider\diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.039] sec.
+[18:40:02.236][info] [#0:script\provider\diagnostic.lua:486]: Diagnostics scope [file:///d%3A/Dev/MySqlConnectPool], files count:[124]
+[18:40:02.236][info] [#0:script\provider\diagnostic.lua:503]: Diagnostics scope [file:///d%3A/Dev/MySqlConnectPool] finished, takes [0.004] sec.
+[18:49:58.267][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 66.348 MB
+        # 00 : 42.615 MB
+        # 01 : 10.470 MB
+        # 02 : 0.043 MB
+        # 03 : 13.177 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     269
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      269
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[18:59:59.517][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 66.976 MB
+        # 00 : 43.242 MB
+        # 01 : 10.470 MB
+        # 02 : 0.043 MB
+        # 03 : 13.177 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     269
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      269
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:10:00.423][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 67.604 MB
+        # 00 : 43.870 MB
+        # 01 : 10.470 MB
+        # 02 : 0.043 MB
+        # 03 : 13.177 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     269
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      269
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:20:01.736][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 68.230 MB
+        # 00 : 44.497 MB
+        # 01 : 10.470 MB
+        # 02 : 0.043 MB
+        # 03 : 13.177 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     269
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      269
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:30:03.251][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 68.859 MB
+        # 00 : 45.125 MB
+        # 01 : 10.470 MB
+        # 02 : 0.043 MB
+        # 03 : 13.177 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     269
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      269
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================

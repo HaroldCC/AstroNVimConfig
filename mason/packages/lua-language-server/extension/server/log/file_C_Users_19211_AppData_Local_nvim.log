@@ -1,0 +1,288 @@
+[08:42:59.819][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:65]: Lua Lsp startup, root: 	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server
+[08:42:59.819][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:66]: ROOT:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server
+[08:42:59.819][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:67]: LOGPATH:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/log
+[08:42:59.819][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:68]: METAPATH:	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta
+[08:42:59.819][info] [#0:C:\Users\19211\AppData\Local\nvim-data\mason\packages\lua-language-server\extension\server\main.lua:69]: VERSION:	3.5.6
+[08:42:59.835][info] [#0:script\service\service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.413 MB
+        # 00 : 1.413 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[08:42:59.850][info] [#0:script\language.lua:137]: VSC language: nil
+[08:42:59.850][info] [#0:script\language.lua:138]: LS  language: en-us
+[08:42:59.850][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///C:/Users/19211/AppData/Local/nvim
+[08:42:59.850][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/log/file_C_Users_19211_AppData_Local_nvim.log
+[08:42:59.866][info] [#0:script\workspace\workspace.lua:51]: Workspace create: 	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.303][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.303][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.303][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.303][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.303][info] [#0:script\provider\provider.lua:41]: Load config from client	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.303][info] [#0:script\provider\provider.lua:42]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.303][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[08:43:00.303][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.303][info] [#0:script\library.lua:207]: Init builtin library at:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.335][info] [#0:script\plugin.lua:86]: plugin path:	C:\Users\19211\AppData\Local\nvim
+[08:43:00.335][warn] [#0:script\plugin.lua:101]: plugin not found:	C:\Users\19211\AppData\Local\nvim
+[08:43:00.335][info] [#0:script\library.lua:207]: Init builtin library at:	nil
+[08:43:00.350][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[08:43:00.350][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.350][info] [#0:script\provider\provider.lua:56]: Load config from client	fallback
+[08:43:00.350][info] [#0:script\provider\provider.lua:57]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    telemetry = {
+      enable = false
+    },
+    workspace = {
+      library = {
+        ["C:\\Users\\19211\\AppData\\Local\\astronvim/lua"] = true,
+        ["C:\\Users\\19211\\AppData\\Local\\nvim/lua"] = true,
+        ["D:\\Applications\\NeoVim\\share\\nvim\\runtime\\lua"] = true
+      }
+    }
+  }
+}
+[08:43:00.350][info] [#0:script\workspace\workspace.lua:305]: Preload start:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.350][info] [#0:script\workspace\workspace.lua:311]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:00.350][info] [#0:script\workspace\workspace.lua:305]: Preload start:	<fallback>
+[08:43:00.350][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///d%3A/Applications/NeoVim/share/nvim/runtime/lua
+[08:43:00.366][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua
+[08:43:00.397][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///d%3A/Applications/NeoVim/share/nvim/runtime/lua
+[08:43:00.397][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta/Lua%205.4%20en-us%20utf8
+[08:43:00.397][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua
+[08:43:00.413][info] [#0:script\workspace\workspace.lua:328]: Scan library at:	file:///c%3A/Users/19211/AppData/Local/nvim-data/mason/packages/lua-language-server/extension/server/meta/Lua%205.4%20en-us%20utf8
+[08:43:01.866][info] [#0:script\workspace\workspace.lua:348]: Found 128 files at:	<fallback>
+[08:43:01.866][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	<fallback>
+[08:43:01.866][info] [#0:script\workspace\workspace.lua:348]: Found 203 files at:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:01.866][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:02.241][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.367] sec: file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:02.241][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:02.241][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:02.241][info] [#0:script\workspace\workspace.lua:350]: Preload finish at:	file:///c%3A/Users/19211/AppData/Local/nvim
+[08:43:02.288][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentHighlight] takes [1.983]sec. {
+  id = 3,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 0
+    },
+    textDocument = {
+      uri = "file:///C:/Users/19211/AppData/Local/nvim/lua/user/init.lua"
+    }
+  }
+}
+[08:43:02.303][warn] [#0:script\proto\proto.lua:171]: Method [textDocument/documentSymbol] takes [1.997]sec. {
+  id = 2,
+  jsonrpc = "2.0",
+  method = "textDocument/documentSymbol",
+  params = {
+    textDocument = {
+      uri = "file:///C:/Users/19211/AppData/Local/nvim/lua/user/init.lua"
+    }
+  }
+}
+[08:43:02.303][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.437] sec: <fallback>
+[08:43:02.303][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[08:43:02.303][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	<fallback>
+[08:43:02.303][info] [#0:script\workspace\workspace.lua:350]: Preload finish at:	<fallback>
+[08:43:03.897][info] [#0:script\provider\diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[130]
+[08:43:03.897][info] [#0:script\provider\diagnostic.lua:486]: Diagnostics scope [file:///c%3A/Users/19211/AppData/Local/nvim], files count:[130]
+[08:43:04.366][info] [#0:script\provider\diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.468] sec.
+[08:43:04.366][info] [#0:script\provider\diagnostic.lua:503]: Diagnostics scope [file:///c%3A/Users/19211/AppData/Local/nvim] finished, takes [0.467] sec.
+[08:43:23.163][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66/693710f42b26fd4f2f427b8bffdff38fa10beb
+[08:43:23.163][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66/693710f42b26fd4f2f427b8bffdff38fa10beb
+[08:43:23.163][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66/693710f42b26fd4f2f427b8bffdff38fa10beb
+[08:43:23.163][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66/693710f42b26fd4f2f427b8bffdff38fa10beb
+[08:43:23.163][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66/693710f42b26fd4f2f427b8bffdff38fa10beb
+[08:43:23.163][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2
+[08:43:23.163][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2
+[08:43:23.163][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2
+[08:43:23.163][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2
+[08:43:23.163][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2
+[08:43:23.163][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/index
+[08:43:23.163][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/index
+[08:43:23.163][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/index
+[08:43:23.163][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/index
+[08:43:23.163][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/index
+[08:43:23.163][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8
+[08:43:23.163][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8
+[08:43:23.163][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8
+[08:43:23.163][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.001] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8
+[08:43:23.163][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8
+[08:43:23.163][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45
+[08:43:23.163][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45
+[08:43:23.163][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45
+[08:43:23.163][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45
+[08:43:23.163][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/heads/main
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/heads/main
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/heads/main
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/heads/main
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/heads/main
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45/e4c44bf29e43af670c812065fa80536936d836
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45/e4c44bf29e43af670c812065fa80536936d836
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45/e4c44bf29e43af670c812065fa80536936d836
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45/e4c44bf29e43af670c812065fa80536936d836
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/45/e4c44bf29e43af670c812065fa80536936d836
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6/00dc5658ec68f1822c617423ae724ea03ca3f4
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6/00dc5658ec68f1822c617423ae724ea03ca3f4
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6/00dc5658ec68f1822c617423ae724ea03ca3f4
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6/00dc5658ec68f1822c617423ae724ea03ca3f4
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/a6/00dc5658ec68f1822c617423ae724ea03ca3f4
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/66
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8/e028d1ccf68357d12568b8b4acdaed82610176
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8/e028d1ccf68357d12568b8b4acdaed82610176
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8/e028d1ccf68357d12568b8b4acdaed82610176
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8/e028d1ccf68357d12568b8b4acdaed82610176
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/f8/e028d1ccf68357d12568b8b4acdaed82610176
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11/f2542331386c1c5eef5ff930f6c05fea5d8b6a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11/f2542331386c1c5eef5ff930f6c05fea5d8b6a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11/f2542331386c1c5eef5ff930f6c05fea5d8b6a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11/f2542331386c1c5eef5ff930f6c05fea5d8b6a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/11/f2542331386c1c5eef5ff930f6c05fea5d8b6a
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75/71df498c09d994521d33d321f8dd8d418cd1cd
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75/71df498c09d994521d33d321f8dd8d418cd1cd
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75/71df498c09d994521d33d321f8dd8d418cd1cd
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75/71df498c09d994521d33d321f8dd8d418cd1cd
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/75/71df498c09d994521d33d321f8dd8d418cd1cd
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49/0650a257d383a4864b23cb2dca16efbbf9857a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49/0650a257d383a4864b23cb2dca16efbbf9857a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49/0650a257d383a4864b23cb2dca16efbbf9857a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49/0650a257d383a4864b23cb2dca16efbbf9857a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/49/0650a257d383a4864b23cb2dca16efbbf9857a
+[08:43:23.178][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2/bc02d405709ef26afc56c7d3cfd8a24cbe4d0a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2/bc02d405709ef26afc56c7d3cfd8a24cbe4d0a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2/bc02d405709ef26afc56c7d3cfd8a24cbe4d0a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2/bc02d405709ef26afc56c7d3cfd8a24cbe4d0a
+[08:43:23.178][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/objects/b2/bc02d405709ef26afc56c7d3cfd8a24cbe4d0a
+[08:43:29.225][info] [#0:script\workspace\workspace.lua:265]: Scan files at:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/remotes/origin/main
+[08:43:29.225][info] [#0:script\workspace\loading.lua:153]: Load files from disk:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/remotes/origin/main
+[08:43:29.225][info] [#0:script\workspace\loading.lua:165]: Loaded files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/remotes/origin/main
+[08:43:29.225][info] [#0:script\workspace\loading.lua:174]: Compile files takes [0.000] sec: file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/remotes/origin/main
+[08:43:29.225][info] [#0:script\workspace\loading.lua:175]: Loaded finish:	file:///c%3A/Users/19211/AppData/Local/nvim/lua/user/.git/refs/remotes/origin/main
